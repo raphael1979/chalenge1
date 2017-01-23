@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE root[
+
+
+]>
+
+
+<root>
+
+  <nom> Dupont </nom>
+  <prenom>Pierre</prenom>
+  <age> 42 ans </age>
+  <metier>Develeppeur Web </metier>
+  <mail>p.dupont@gmail.com</mail>
+  <tel>06 66 66 66 66 </tel>
+
+
+  <nom> Dulac </nom>
+  <prenom>Paul</prenom>
+  <age> 66 ans </age>
+  <metier>Web Designer </metier>
+  <mail>p.dulac@gmail.com</mail>
+  <tel>06 42 42 42 42 </tel>
+ 
+
+
+  <nom> Ajax </nom>
+  <prenom>Jacques</prenom>
+  <age> 73 ans </age>
+  <metier>Programmeur à la retraite</metier>
+  <mail>j.ajax@gmail.com</mail>
+  <tel>06 12 43 56 59 </tel>
+
+
+</root>
