@@ -7,14 +7,18 @@ $(document).ready(
 			dataType: "xml",
 			success: function(xml) 
 			{ 
-				$(xml).find('site').each( function()
-					{var id = $(this).attr('id');
-					var title = $(this).find('title').text();
-					var url = $(this).find('url').text();
-					$('<div class="items" id="link_' + id + '"></div>').html('<a href="' + url + '">' + title + '</a>').appendTo('#Div_XML');
+				$(xml).find('client').each( function()
+				{
+					var id = $(this).attr('id');
+					var nom = $(this).find('nom').text();
+					
+					console.log(nom);
+					$('.choix').append($('<option>', { value: id, text: nom}));
+
 				} );
 
 			}
+			//$('.').;
 		}
 		);
 	}
